@@ -1,0 +1,304 @@
+[01-Feb-2024 07:42:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attribute() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/index.php:2
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(19): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#3 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/index.php on line 2
+[01-Feb-2024 07:42:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attribute() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/index.php:2
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(19): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#3 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/index.php on line 2
+[01-Feb-2024 07:58:21 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 11
+[01-Feb-2024 07:58:21 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 11
+[01-Feb-2024 07:58:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[01-Feb-2024 07:58:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[01-Feb-2024 08:05:46 UTC] PHP Parse error:  syntax error, unexpected token ";" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/header.php on line 36
+[01-Feb-2024 08:46:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/index.php:29
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(19): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#3 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/index.php on line 29
+[01-Feb-2024 08:46:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/index.php:29
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(19): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#3 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/index.php on line 29
+[01-Feb-2024 09:22:08 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 12
+[01-Feb-2024 09:22:08 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 12
+[01-Feb-2024 09:34:07 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/theme.php:2896
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php(19): add_theme_support(Array)
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(324): woocommerce_support('')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(621): do_action('after_setup_the...')
+#5 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#6 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#7 /Users/shin/Local Sites/woocommerce10/app/public/wp-admin/admin.php(34): require_once('/Users/shin/Loc...')
+#8 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/theme.php on line 2896
+[01-Feb-2024 09:34:08 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/theme.php:2896
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php(19): add_theme_support(Array)
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(324): woocommerce_support('')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(621): do_action('after_setup_the...')
+#5 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#6 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#7 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(13): require_once('/Users/shin/Loc...')
+#8 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#9 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/theme.php on line 2896
+[01-Feb-2024 09:39:09 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[01-Feb-2024 09:40:11 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[01-Feb-2024 09:48:46 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[01-Feb-2024 10:43:18 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:45:19 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:46:52 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:47:15 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:49:21 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:50:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:51:22 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:52:31 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:53:15 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:54:32 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:55:24 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:57:11 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:58:12 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 10:59:26 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:00:18 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:01:27 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:02:07 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:03:28 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:05:22 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:05:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_add_sidebar_tags" not found or invalid function name in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(29): do_action('woocommerce_bef...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template-loader.php(106): include('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(19): require_once('/Users/shin/Loc...')
+#5 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#6 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php on line 324
+[01-Feb-2024 11:07:01 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:07:30 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:08:28 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:09:08 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:09:31 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:11:32 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:13:33 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:15:34 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:19:36 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:21:37 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:23:38 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:25:39 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:27:40 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:29:41 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:31:42 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:32:08 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:33:43 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:34:11 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:35:34 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:37:17 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:37:17 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "the_exerpt" not found or invalid function name in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/woocommerce/templates/content-product.php(57): do_action('woocommerce_aft...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template.php(792): require('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/shin/Loc...', false)
+#5 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_part('content', 'product')
+#6 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template-loader.php(106): include('/Users/shin/Loc...')
+#7 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(19): require_once('/Users/shin/Loc...')
+#8 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#9 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php on line 324
+[01-Feb-2024 11:37:32 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:39:01 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:39:05 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:41:47 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:43:48 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:45:32 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 77
+[01-Feb-2024 11:45:33 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 77
+[01-Feb-2024 11:45:39 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:46:20 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:48:50 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:50:51 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:51:32 UTC] PHP Parse error:  syntax error, unexpected identifier "theme_location", expecting "," or ";" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 88
+[01-Feb-2024 11:51:33 UTC] PHP Parse error:  syntax error, unexpected identifier "theme_location", expecting "," or ";" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 88
+[01-Feb-2024 11:52:14 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:54:53 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:56:54 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:57:38 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 11:58:35 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:06:40 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:07:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:08:36 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:09:11 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:09:49 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:10:56 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:11:09 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:12:22 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:16:15 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:18:12 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:22:38 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:22:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_add_shop_tag" not found or invalid function name in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/woocommerce/templates/single-product.php(31): do_action('woocommerce_bef...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template-loader.php(106): include('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(19): require_once('/Users/shin/Loc...')
+#5 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#6 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php on line 324
+[01-Feb-2024 12:23:16 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:24:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:26:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function class_exist() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php:38
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(611): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(13): require_once('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#5 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 38
+[01-Feb-2024 12:26:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function class_exist() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php:38
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(611): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(13): require_once('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#5 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 38
+[01-Feb-2024 12:26:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function class_exist() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php:38
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(611): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(13): require_once('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#5 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 38
+[01-Feb-2024 12:27:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function class_exist() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php:38
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(611): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(13): require_once('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#5 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 38
+[01-Feb-2024 12:27:34 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:29:33 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:30:24 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:31:17 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:33:20 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:34:05 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:36:02 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:38:03 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:40:04 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:42:05 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:43:23 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:44:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:45:30 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:46:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:48:25 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:50:33 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:51:22 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:52:34 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:53:48 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:54:34 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:56:36 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 12:58:20 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:00:38 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:01:25 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:02:39 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:04:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:05:40 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:06:54 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:07:21 UTC] PHP Parse error:  syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+[01-Feb-2024 13:07:22 UTC] PHP Parse error:  syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+[01-Feb-2024 13:07:41 UTC] PHP Parse error:  syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+[01-Feb-2024 13:09:42 UTC] PHP Parse error:  syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+[01-Feb-2024 13:10:28 UTC] PHP Parse error:  syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+[01-Feb-2024 13:10:30 UTC] PHP Parse error:  syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+[01-Feb-2024 13:11:32 UTC] PHP Parse error:  syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+[01-Feb-2024 13:11:34 UTC] PHP Parse error:  syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+[01-Feb-2024 13:11:43 UTC] PHP Parse error:  syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+[01-Feb-2024 13:12:49 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:13:11 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:14:21 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:15:13 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:16:10 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:17:30 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:18:09 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:19:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:21:07 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:22:14 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:24:15 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:26:16 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:28:17 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:30:18 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:32:19 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:34:20 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:36:21 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:38:11 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:39:13 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:40:17 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:41:43 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:42:18 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:44:25 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:46:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:47:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:48:07 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:49:07 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:51:08 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:53:09 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:54:14 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:55:10 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:56:17 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:58:32 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 13:59:15 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:02:20 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:03:11 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:04:07 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:16:20 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:19:35 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:20:34 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:23:36 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:24:42 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:26:08 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:27:50 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:29:10 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:31:02 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:31:05 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:33:18 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:35:10 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:37:39 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:40:50 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:41:30 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:44:51 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:45:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:45:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:46:50 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:46:50 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:47:09 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:48:19 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:49:17 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:50:51 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[01-Feb-2024 14:52:52 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84

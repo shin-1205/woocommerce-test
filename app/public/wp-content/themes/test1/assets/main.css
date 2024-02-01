@@ -1,0 +1,13 @@
+
+.row>*{
+      max-width: max-content;
+}
+
+.hello{
+  color: pink;
+}
+
+.col{
+  width: 100%;
+max-width: 100%;
+}

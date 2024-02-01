@@ -1,0 +1,133 @@
+2024-02-01T09:22:08+00:00 CRITICAL syntax error, unexpected token "}" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 12
+
+2024-02-01T09:22:08+00:00 CRITICAL syntax error, unexpected token "}" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 12
+
+2024-02-01T09:34:07+00:00 CRITICAL Uncaught TypeError: Illegal offset type in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/theme.php:2896
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php(19): add_theme_support(Array)
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(324): woocommerce_support('')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(621): do_action('after_setup_the...')
+#5 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#6 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#7 /Users/shin/Local Sites/woocommerce10/app/public/wp-admin/admin.php(34): require_once('/Users/shin/Loc...')
+#8 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/theme.php on line 2896
+
+2024-02-01T09:34:08+00:00 CRITICAL Uncaught TypeError: Illegal offset type in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/theme.php:2896
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php(19): add_theme_support(Array)
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(324): woocommerce_support('')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(621): do_action('after_setup_the...')
+#5 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#6 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#7 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(13): require_once('/Users/shin/Loc...')
+#8 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#9 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/theme.php on line 2896
+
+2024-02-01T11:05:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_add_sidebar_tags" not found or invalid function name in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(29): do_action('woocommerce_bef...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template-loader.php(106): include('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(19): require_once('/Users/shin/Loc...')
+#5 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#6 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php on line 324
+
+2024-02-01T11:37:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "the_exerpt" not found or invalid function name in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/woocommerce/templates/content-product.php(57): do_action('woocommerce_aft...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template.php(792): require('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Users/shin/Loc...', false)
+#5 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_part('content', 'product')
+#6 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template-loader.php(106): include('/Users/shin/Loc...')
+#7 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(19): require_once('/Users/shin/Loc...')
+#8 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#9 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php on line 324
+
+2024-02-01T11:45:32+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 77
+
+2024-02-01T11:45:33+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 77
+
+2024-02-01T11:51:32+00:00 CRITICAL syntax error, unexpected identifier "theme_location", expecting "," or ";" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 88
+
+2024-02-01T11:51:33+00:00 CRITICAL syntax error, unexpected identifier "theme_location", expecting "," or ";" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 88
+
+2024-02-01T12:22:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_add_shop_tag" not found or invalid function name in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-content/plugins/woocommerce/templates/single-product.php(31): do_action('woocommerce_bef...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/template-loader.php(106): include('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(19): require_once('/Users/shin/Loc...')
+#5 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#6 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-includes/class-wp-hook.php on line 324
+
+2024-02-01T12:26:45+00:00 CRITICAL Uncaught Error: Call to undefined function class_exist() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php:38
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(611): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(13): require_once('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#5 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 38
+
+2024-02-01T12:26:47+00:00 CRITICAL Uncaught Error: Call to undefined function class_exist() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php:38
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(611): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(13): require_once('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#5 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 38
+
+2024-02-01T12:26:59+00:00 CRITICAL Uncaught Error: Call to undefined function class_exist() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php:38
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(611): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(13): require_once('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#5 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 38
+
+2024-02-01T12:27:01+00:00 CRITICAL Uncaught Error: Call to undefined function class_exist() in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php:38
+Stack trace:
+#0 /Users/shin/Local Sites/woocommerce10/app/public/wp-settings.php(611): include()
+#1 /Users/shin/Local Sites/woocommerce10/app/public/wp-config.php(103): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/woocommerce10/app/public/wp-load.php(50): require_once('/Users/shin/Loc...')
+#3 /Users/shin/Local Sites/woocommerce10/app/public/wp-blog-header.php(13): require_once('/Users/shin/Loc...')
+#4 /Users/shin/Local Sites/woocommerce10/app/public/index.php(17): require('/Users/shin/Loc...')
+#5 {main}
+  thrown in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/functions.php on line 38
+
+2024-02-01T13:07:21+00:00 CRITICAL syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+
+2024-02-01T13:07:22+00:00 CRITICAL syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+
+2024-02-01T13:07:41+00:00 CRITICAL syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+
+2024-02-01T13:09:42+00:00 CRITICAL syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+
+2024-02-01T13:10:28+00:00 CRITICAL syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+
+2024-02-01T13:10:30+00:00 CRITICAL syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+
+2024-02-01T13:11:32+00:00 CRITICAL syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+
+2024-02-01T13:11:34+00:00 CRITICAL syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+
+2024-02-01T13:11:43+00:00 CRITICAL syntax error, unexpected token ".=" in /Users/shin/Local Sites/woocommerce10/app/public/wp-content/themes/test1/inc/class-wp-bootstrap-navwalker.php on line 366
+
