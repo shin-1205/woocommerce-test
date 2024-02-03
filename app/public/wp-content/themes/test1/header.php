@@ -27,7 +27,14 @@
       <section class="search">
         <div class="container">
           <div class="text-center d-md-flex align-items-center">
-            <?php get_search_form(); ?>
+            <a href="<?php echo home_url('/') ?>">
+              <?php if( has_custom_logo()):?>
+              <?php get_search_form(); ?>
+              <?php else: ?>
+              <p class="site-title"><?php bloginfo('title')?></p>
+              <span><?php bloginfo('discription'); ?></span>
+              <?php endif; ?>
+            </a>
           </div>
         </div>
       </section>
@@ -35,7 +42,9 @@
         <div class="container">
           <div class="row">
             <?php if(class_exists('WooCommerce')); ?>
-            <div class="brand col-md-3 col-12 col-lg-2 text-center text-md-left">Logo</div>
+            <div class="brand col-md-3 col-12 col-lg-2 text-center text-md-left">
+              <?php the_custom_logo(); ?>
+            </div>
             <div class="second-column col-md-9 col-12 col-lg-10">
               <div class="row">
                 <div class="acount col-12">
